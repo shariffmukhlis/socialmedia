@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  background-color: #00aeff;
+}
+
+.profile {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 10%;
+  align-items: center;
+  background-color: #f3f3f3;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-logo {
+  font-size: 4rem;
+  color: #00aeff;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.profile-image {
+  width: 8rem;
+  height: 8rem;
+}
+
+section {
+  padding-inline: 10%;
+}
+
+section.title {
+  margin-top: 10%;
+  font-weight: 600;
+  text-align: center;
+  font-size: 2rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+section.title h1 {
+  font-size: 1.4rem;
+  letter-spacing: 0.4rem;
+  color: #0284c0;
+}
+
+section.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+
+section.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  flex-direction: column;
+}
+
+section.menu ul li {
+  margin: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+section.menu ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-list-item {
+  background-color: #f3f3f3;
+  color: #0284c0;
+  padding: 7%;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.menu-list-item svg {
+  fill: #0284c0;
+}
+
+.menu-list-item:hover, .menu-list-item.active {
+  background-color: #0284c0;
+  color: #f3f3f3;
+}
+.menu-list-item:hover svg, .menu-list-item.active svg {
+  fill: #f3f3f3;
+}
+
+section.menu ul li svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5%;
+}
+
+footer {
+  width: 100%;
+  height: 5vh;
+  background-color: #1b1b1b;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #0284c0;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 0;
+  padding: 3rem 0;
+}/*# sourceMappingURL=style.css.map */
